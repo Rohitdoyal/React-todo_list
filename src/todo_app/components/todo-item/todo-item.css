@@ -1,0 +1,64 @@
+.todo-item {
+  font-size: 24px;
+  border-bottom: 1px solid #ededed;
+  min-height: 60px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 120px 0 60px;
+  cursor: pointer;
+  display: flex;
+  
+  align-items: center;
+  position: relative;
+  border-radius: 12px;
+}
+
+.text {
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 5px ;
+}
+
+.completed {
+  text-decoration: line-through;
+  
+}
+
+.completed,
+.fa-check-circle {
+  color: red;
+}
+
+
+
+.fa-check-square {
+  transition: all .3s ease;
+  color: rgba(47, 175, 53, 0.733);
+  padding: 5px;
+  position: absolute;
+  right: 70px;
+}
+.fa-trash-alt {
+  transition: all .3s ease;
+  color: rgba(24, 24, 24, 0.486);
+  padding: 10px;
+  
+  position: absolute;
+  right: 2px;
+}
+
+.mark {
+  position: absolute;
+  left: 20px;
+}
+
+.fa-check-square:hover  {
+  color: rgb(0, 114, 6);
+}
+
+.fa-trash-alt:hover {
+
+  color: rgba(255, 0, 0, 0.801);
+  
+}
+

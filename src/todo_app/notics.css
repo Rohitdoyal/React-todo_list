@@ -1,0 +1,50 @@
+.Box{
+   
+    width:20%;
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    
+    color: rgb(15, 15, 15);
+    margin: 20px;
+    position: sticky;
+    bottom: 2px;
+    height: 150px;
+    box-shadow: 6px 6px 12px  rgb(95, 95, 95);
+
+  
+  }
+  table{
+      height: 100%;
+      width: 100%;
+      position: relative;
+  }
+  
+ 
+  
+  table {
+    border-collapse: collapse;
+  }
+
+  table td .fas{
+      position: relative;
+      right: 0px;
+      
+  }
+
+  @media only screen and (max-width: 600px) {
+    .Box{
+       
+        font-size: 20px;
+        text-align: center;
+        
+        color: rgb(15, 15, 15);
+        margin: 40px;
+        position: relative;
+        
+        height: 150px;
+        width: 80%;
+    
+      
+      }
+  }
